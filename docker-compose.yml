@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  livechat:
+    image: balena-no-hello-world
+    build:
+      context: ./balena-node-hello-world
+    networks:
+      - internal
+networks:
+  internal: {}
+

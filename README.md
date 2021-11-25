@@ -1,0 +1,2 @@
+This repo is a minimum viable reproduction of `balena push` not supporting the `image` field in docker-compose.yml when the `build` field is also specified.
+For more information on this bug, see https://github.com/balena-io/balena-cli/issues/2394
